@@ -18,8 +18,7 @@ app.get('/', (req, res) => {
 
 app.get('/check-access', (req, res) => {
 
-  const telegramId =
-    req.query.user;
+  const telegramId = req.query.user;
 
   console.log(
     'Checking access for:',
